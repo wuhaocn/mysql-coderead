@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-04T15:05:03.114Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="F7nGCwk15PwYPwXYilW9" version="12.3.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-04T15:41:40.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Ki0B5FT6NztZpEDQaBj7" version="12.3.6" type="github" pages="1">
   <diagram id="Zg6BwwtBIuaKrCr9yLFn" name="Page-1">
     <mxGraphModel dx="946" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,21 @@
             <mxPoint x="-23" y="-10" as="offset"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-51" value="&lt;pre&gt;init_slave_list() repl_failsafe.cc:201&lt;br/&gt;&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="8pwrm2gdTM6xl_JWy9_M-23">
+          <mxGeometry x="0.5306" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="23" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-52" value="&lt;pre&gt;_my_hash_init hash.c:85&lt;br/&gt;init_slave_list() repl_failsafe.cc:204&lt;br/&gt;init_server_components() mysqld.cc:3842&lt;br/&gt;mysqld_main(int, char**) mysqld.cc:4591&lt;br/&gt;main main.cc:25&lt;br/&gt;start 0x00007fff6d4df2e5&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="8pwrm2gdTM6xl_JWy9_M-23">
+          <mxGeometry x="0.7618" y="-3" relative="1" as="geometry">
+            <mxPoint x="313" y="-33" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-53" value="&lt;pre&gt;delegates_init() rpl_handler.cc:102（复制）&lt;br&gt;init_server_components() mysqld.cc:3905&lt;br&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="8pwrm2gdTM6xl_JWy9_M-23">
+          <mxGeometry x="0.8249" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8pwrm2gdTM6xl_JWy9_M-28" value="log.cc&lt;br&gt;日志" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="640" y="150" width="120" height="40" as="geometry"/>
         </mxCell>
@@ -137,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8pwrm2gdTM6xl_JWy9_M-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="310" y="500" width="10" height="80" as="geometry"/>
+          <mxGeometry x="310" y="500" width="10" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="8pwrm2gdTM6xl_JWy9_M-39" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="8pwrm2gdTM6xl_JWy9_M-38" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -169,6 +184,33 @@
         <mxCell id="8pwrm2gdTM6xl_JWy9_M-45" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #1f542e ; font-weight: bold&quot;&gt;query_cache_set_min_res_unit-&amp;gt;&lt;/span&gt;query_cache_init-&amp;gt;query_cache_resize&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="8pwrm2gdTM6xl_JWy9_M-44">
           <mxGeometry x="-0.9045" y="2" relative="1" as="geometry">
             <mxPoint x="218" y="2" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-46" value="thr._lock.cc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="150" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="8pwrm2gdTM6xl_JWy9_M-46" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="1261" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1150" y="1261"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-48" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="580" as="sourcePoint"/>
+            <mxPoint x="1152" y="580" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-49" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;init_thr_lock&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="8pwrm2gdTM6xl_JWy9_M-48">
+          <mxGeometry x="-0.9279" y="-1" relative="1" as="geometry">
+            <mxPoint x="30" y="-1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8pwrm2gdTM6xl_JWy9_M-50" value="已经不采用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="8pwrm2gdTM6xl_JWy9_M-48">
+          <mxGeometry x="0.9087" y="3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
       </root>
