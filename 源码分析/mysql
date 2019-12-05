@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-05T15:30:14.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="jZVE1Lxhi81fjtVfOtlA" version="12.3.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-05T15:36:35.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Om2t6pNR0c7_pGJLUPmS" version="12.3.6" type="github" pages="3">
   <diagram id="Zg6BwwtBIuaKrCr9yLFn" name="Page-1">
     <mxGraphModel dx="946" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,10 +249,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P5h6iMUhAkjgSBJqSJ0e" name="select">
-    <mxGraphModel dx="946" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3427" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BPkZtmV91Cu5JoFhAOM1-0"/>
         <mxCell id="BPkZtmV91Cu5JoFhAOM1-1" parent="BPkZtmV91Cu5JoFhAOM1-0"/>
+        <mxCell id="BPkZtmV91Cu5JoFhAOM1-2" value="&lt;pre&gt;handler::ha_write_row(unsigned char*) handler.cc:5200&lt;br/&gt;schema_table_store_record(THD*, TABLE*) sql_show.cc:2560&lt;br/&gt;get_schema_column_record(THD*, TABLE_LIST*, TABLE*, bool, st_mysql_lex_string*, st_mysql_lex_string*) sql_show.cc:4608&lt;br/&gt;fill_schema_table_by_open(THD*, bool, TABLE*, st_schema_table*, st_mysql_lex_string*, st_mysql_lex_string*, Open_tables_backup*, bool) sql_show.cc:3322&lt;br/&gt;get_all_tables(THD*, TABLE_LIST*, Item*) sql_show.cc:3852&lt;br/&gt;do_fill_table(THD*, TABLE_LIST*, st_join_table*) sql_show.cc:7096&lt;br/&gt;get_schema_tables_result(JOIN*, enum_schema_table_state) sql_show.cc:7203&lt;br/&gt;JOIN::exec() sql_select.cc:1934&lt;br/&gt;mysql_select(THD*, Item***, TABLE_LIST*, unsigned int, List&amp;lt;Item&amp;gt;&amp;amp;, Item*, unsigned int, st_order*, st_order*, Item*, st_order*, unsigned long long, select_result*, st_select_lex_unit*, st_select_lex*) sql_select.cc:2619&lt;br/&gt;handle_select(THD*, LEX*, select_result*, unsigned long) sql_select.cc:285&lt;br/&gt;execute_sqlcom_select(THD*, TABLE_LIST*) sql_parse.cc:4677&lt;br/&gt;mysql_execute_command(THD*) sql_parse.cc:2214&lt;br/&gt;mysql_parse(THD*, char*, unsigned int, Parser_state*) sql_parse.cc:5832&lt;br/&gt;dispatch_command(enum_server_command, THD*, char*, unsigned int) sql_parse.cc:1076&lt;br/&gt;do_command(THD*) sql_parse.cc:777&lt;br/&gt;do_handle_one_connection(THD*) sql_connect.cc:870&lt;br/&gt;::handle_one_connection(void *) sql_connect.cc:789&lt;br/&gt;_pthread_start 0x00007fff6d6ebd36&lt;br/&gt;thread_start 0x00007fff6d6e858f&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="BPkZtmV91Cu5JoFhAOM1-1">
+          <mxGeometry x="-2390" y="50" width="1600" height="300" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
