@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-04T16:02:53.328Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="sj5s9K33pAqMkZ5fwttt" version="12.3.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-05T15:30:14.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="jZVE1Lxhi81fjtVfOtlA" version="12.3.6" type="github" pages="3">
   <diagram id="Zg6BwwtBIuaKrCr9yLFn" name="Page-1">
     <mxGraphModel dx="946" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -221,6 +221,38 @@
       <root>
         <mxCell id="I24R0WYsER96nx8kr5g7-0"/>
         <mxCell id="I24R0WYsER96nx8kr5g7-1" parent="I24R0WYsER96nx8kr5g7-0"/>
+        <mxCell id="I24R0WYsER96nx8kr5g7-2" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="I24R0WYsER96nx8kr5g7-1">
+          <mxGeometry x="390" y="70" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="I24R0WYsER96nx8kr5g7-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="I24R0WYsER96nx8kr5g7-2" parent="I24R0WYsER96nx8kr5g7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="490" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I24R0WYsER96nx8kr5g7-4" value="&lt;pre&gt;dispatch_command(enum_server_command, THD*, char*, unsigned int) sql_parse.cc:880&lt;br/&gt;do_command(THD*) sql_parse.cc:777&lt;br/&gt;do_handle_one_connection(THD*) sql_connect.cc:870&lt;br/&gt;::handle_one_connection(void *) sql_connect.cc:789&lt;br/&gt;_pthread_start 0x00007fff6d6ebd36&lt;br/&gt;thread_start 0x00007fff6d6e858f&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="I24R0WYsER96nx8kr5g7-3">
+          <mxGeometry x="-0.7263" relative="1" as="geometry">
+            <mxPoint x="-200" y="48" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I24R0WYsER96nx8kr5g7-5" value="&lt;pre&gt;mysql_execute_command(THD*) sql_parse.cc:1917&lt;br/&gt;mysql_parse(THD*, char*, unsigned int, Parser_state*) sql_parse.cc:5832&lt;br/&gt;dispatch_command(enum_server_command, THD*, char*, unsigned int) sql_parse.cc:1076&lt;br/&gt;do_command(THD*) sql_parse.cc:777&lt;br/&gt;do_handle_one_connection(THD*) sql_connect.cc:870&lt;br/&gt;::handle_one_connection(void *) sql_connect.cc:789&lt;br/&gt;_pthread_start 0x00007fff6d6ebd36&lt;br/&gt;thread_start 0x00007fff6d6e858f&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="I24R0WYsER96nx8kr5g7-3">
+          <mxGeometry x="0.2947" y="1" relative="1" as="geometry">
+            <mxPoint x="-201" y="34" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I24R0WYsER96nx8kr5g7-6" value="&lt;pre&gt;插入&lt;/pre&gt;&lt;pre&gt;&lt;pre&gt;row_ins_step row0ins.c:2601&lt;br/&gt;row_insert_for_mysql row0mysql.c:1240&lt;br/&gt;ha_innobase::write_row(unsigned char*) ha_innodb.cc:5239&lt;br/&gt;handler::ha_write_row(unsigned char*) handler.cc:5200&lt;br/&gt;write_record(THD*, TABLE*, st_copy_info*) sql_insert.cc:1745&lt;br/&gt;mysql_insert(THD*, TABLE_LIST*, List&amp;lt;Item&amp;gt;&amp;amp;, List&amp;lt;List&amp;lt;Item&amp;gt; &amp;gt;&amp;amp;, List&amp;lt;Item&amp;gt;&amp;amp;, List&amp;lt;Item&amp;gt;&amp;amp;, enum_duplicates, bool) sql_insert.cc:929&lt;br/&gt;mysql_execute_command(THD*) sql_parse.cc:2990&lt;br/&gt;mysql_parse(THD*, char*, unsigned int, Parser_state*) sql_parse.cc:5832&lt;br/&gt;dispatch_command(enum_server_command, THD*, char*, unsigned int) sql_parse.cc:1076&lt;br/&gt;do_command(THD*) sql_parse.cc:777&lt;br/&gt;do_handle_one_connection(THD*) sql_connect.cc:870&lt;br/&gt;::handle_one_connection(void *) sql_connect.cc:789&lt;br/&gt;_pthread_start 0x00007fff6d6ebd36&lt;br/&gt;thread_start 0x00007fff6d6e858f&lt;br/&gt;&lt;/pre&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="I24R0WYsER96nx8kr5g7-1">
+          <mxGeometry x="250" y="465" width="960" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="I24R0WYsER96nx8kr5g7-7" value="&lt;pre&gt;插入自增&lt;/pre&gt;&lt;pre&gt;handler::update_auto_increment() handler.cc:2588&lt;br&gt;ha_innobase::write_row(unsigned char*) ha_innodb.cc:5205&lt;br&gt;handler::ha_write_row(unsigned char*) handler.cc:5200&lt;br&gt;write_record(THD*, TABLE*, st_copy_info*) sql_insert.cc:1745&lt;br&gt;mysql_insert(THD*, TABLE_LIST*, List&amp;lt;Item&amp;gt;&amp;amp;, List&amp;lt;List&amp;lt;Item&amp;gt; &amp;gt;&amp;amp;, List&amp;lt;Item&amp;gt;&amp;amp;, List&amp;lt;Item&amp;gt;&amp;amp;, enum_duplicates, bool) sql_insert.cc:929&lt;br&gt;mysql_execute_command(THD*) sql_parse.cc:2990&lt;br&gt;mysql_parse(THD*, char*, unsigned int, Parser_state*) sql_parse.cc:5832&lt;br&gt;dispatch_command(enum_server_command, THD*, char*, unsigned int) sql_parse.cc:1076&lt;br&gt;do_command(THD*) sql_parse.cc:777&lt;br&gt;do_handle_one_connection(THD*) sql_connect.cc:870&lt;br&gt;::handle_one_connection(void *) sql_connect.cc:789&lt;br&gt;_pthread_start 0x00007fff6d6ebd36&lt;br&gt;thread_start 0x00007fff6d6e858f&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="I24R0WYsER96nx8kr5g7-1">
+          <mxGeometry x="250" y="695" width="960" height="240" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P5h6iMUhAkjgSBJqSJ0e" name="select">
+    <mxGraphModel dx="946" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="BPkZtmV91Cu5JoFhAOM1-0"/>
+        <mxCell id="BPkZtmV91Cu5JoFhAOM1-1" parent="BPkZtmV91Cu5JoFhAOM1-0"/>
       </root>
     </mxGraphModel>
   </diagram>
